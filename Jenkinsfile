@@ -1,7 +1,7 @@
-pipeline{
+pipeline {
     agent {label "linux"}
-    stages{
-        stage("Hello"){
+    stages {
+        stage('Hello'){
             steps{
                 echo "hell from Jenkinsfile"
             }
