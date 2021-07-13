@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello'){
             steps{
-                echo "hell from Jenkinsfile"
+                echo "hello from Jenkinsfile"
             }
         }
 
@@ -13,7 +13,7 @@ pipeline {
             }
             steps{
                 sh '''
-                    cat REAMME.md
+                    cat README.md
                 '''
             }
         }
